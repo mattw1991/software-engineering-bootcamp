@@ -592,6 +592,9 @@ for user in user_data:
 logged_in = False
 while not logged_in:
 
+    # The following single line print command is added by Matt:
+    print("***Welcome to Task Manager!***")
+
     print("LOGIN")
     curr_user = input("Username: ")
     curr_pass = input("Password: ")
